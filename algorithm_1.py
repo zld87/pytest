@@ -14,7 +14,7 @@ print(data.head())
 
 # 选择自变量和因变量
 X = data.drop(['SeriousDlqin2yrs', 'Unnamed: 0'], axis=1)
-"y = data['SeriousDlqin2yrs']\n",
+y = data['SeriousDlqin2yrs']
 "\n",
 "# 分割训练集和测试集（测试集20%）\n",
 "X_train, X_test, y_train, y_test = __________(__________, random_state=42)\n",
