@@ -370,7 +370,7 @@ def zld_2_1_5():
 
     # 保存处理后的数据
     cleaned_file_path = 'file/2.1.5/2.1.5_cleaned_data.csv'
-    data_filled.to_csv(cleaned_file_path, index=False)
+    # data_filled.to_csv(cleaned_file_path, index=False)
 
 
 
